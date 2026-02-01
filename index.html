@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synesthesia</title>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/s1.css">
+    <link rel="stylesheet" href="styles/s2.css">
+    <link rel="stylesheet" href="styles/main.css">
+    
+</head>
+<body>
+    <div>
+    <img src="assets/img/closeDialogue.png" alt="" class="hidden">
+
+    <img src="assets/img/menuBG.png" alt="" class="hidden">
+    <img src="assets/img/logo.png" alt="" class="hidden">
+    <img src="assets/img/btnQuit.png" alt="" class="hidden">
+    <img src="assets/img/btnPlay.png" alt="" class="hidden">
+
+    <img src="assets/img/Room1BG.png" alt="" class="hidden">
+    <img src="assets/img/Room1BG_glow.png" alt="" class="hidden">
+    <img src="assets/img/Room1BG_2.png" alt="" class="hidden">
+
+    <img src="assets/img/Room2_1.png" alt="" class="hidden">
+    <img src="assets/img/Room2_2.png" alt="" class="hidden">
+    <img src="assets/img/Room2_1_glow.png" alt="" class="hidden">
+    <img src="assets/img/Room2_2_glow.png" alt="" class="hidden">
+    <img src="assets/img/Room2_2_smell.png" alt="" class="hidden">
+    <img src="assets/img/Room2_3.png" alt="" class="hidden">
+    <img src="assets/img/Room2_3_smell.png" alt="" class="hidden">
+
+    <img src="assets/img/Synm.png" alt="" class="hidden">
+    <img src="assets/img/Sywm.png" alt="" class="hidden">
+    <img src="assets/img/Sy67d.png" alt="" class="hidden">
+    <img src="assets/img/Sy69nm.png" alt="" class="hidden">
+    <img src="assets/img/Sy69wm.png" alt="" class="hidden">
+    <img src="assets/img/Sy104l.png" alt="" class="hidden">
+    <img src="assets/img/Sy105l.png" alt="" class="hidden">
+    <img src="assets/img/Sy104r.png" alt="" class="hidden">
+    <img src="assets/img/Sy105r.png" alt="" class="hidden">
+    <img src="assets/img/Syback.png" alt="" class="hidden">
+
+    <img src="assets/img/wearBtn.png" alt="" class="hidden">
+    <img src="assets/img/removeBtn.png" alt="" class="hidden">
+    
+    <img src="assets/img/Room3.png" alt="" class="hidden">
+    <img src="assets/img/Room3_420.png" alt="" class="hidden">
+
+    <img src="assets/img/Room4.png" alt="" class="hidden">
+    <img src="assets/img/Room4_420.png" alt="" class="hidden">
+
+    <img src="assets/img/arrow.png" alt="" class="hidden">
+
+    <img src="assets/img/mask1.png" alt="" class="hidden">
+    <img src="assets/img/mask2.png" alt="" class="hidden">
+    <img src="assets/img/mask3.png" alt="" class="hidden">
+
+    <img src="assets/img/puzzle1/-Cubo_1-.png" alt="" class="hidden">
+    <img src="assets/img/puzzle1/-Cubo_2-.png" alt="" class="hidden">
+    <img src="assets/img/puzzle1/-Cubo_3-.png" alt="" class="hidden">
+    <img src="assets/img/puzzle1/-Cubo_4-.png" alt="" class="hidden">
+    <img src="assets/img/puzzle1/-Cubo_5-.png" alt="" class="hidden">
+    <img src="assets/img/puzzle1/-Cubo_6-.png" alt="" class="hidden">
+    <img src="assets/img/puzzle1/-Cubo_7-.png" alt="" class="hidden">
+    <img src="assets/img/puzzle1/-Cubo_8-.png" alt="" class="hidden">
+    <img src="assets/img/puzzle1/bg_puzzle1.png" alt="" class="hidden">
+    <img src="assets/img/puzzle1/completo.png" alt="" class="hidden">
+    <img src="assets/img/puzzle1/-vuoto-.png" alt="" class="hidden">
+    <img src="assets/img/puzzle1/bg_puzzle.png" alt="" class="hidden">
+    <img src="assets/img/puzzle1/cornice.png" alt="" class="hidden"></div>
+
+    <main>
+        <div>
+            <audio id="theme" loop>
+                <source src="assets/sound/mainTheme.mp3" type="audio/mp3">
+            </audio>
+            <audio id="key">
+                <source src="assets/sound/key.mp3" type="audio/mp3">
+            </audio>
+        </div>
+        <section id="s1" class="">
+            <canvas id="gameCanvas"></canvas>
+            <video preload id="scene3" class="hidden"><source src="assets/video/Video2-3.MP4" type="video/mp4"></video>
+            <video preload id="finale" class="hidden"><source src="assets/video/VideoFinale.MP4" type="video/mp4"></video>
+            <div id="game1" class="hidden">
+                <div id="board"></div>
+            </div>
+        </section>
+        <section id="s2" class="">
+            <div>
+                <div id="gradient"></div>
+                <div id="dialogueBox">
+                    <p></p>
+                </div>
+                <img src="assets/img/closeDialogue.png" alt="">
+            </div>
+        </section>
+    </main>
+
+    <script src="script/globals.js"></script>
+    <script src="script/utils.js"></script>
+    <script src="script/dialogue.js"></script>
+    <script src="script/Hitbox.js"></script>
+    <script src="script/Sprite.js"></script>
+    <script src="script/Event.js"></script>
+    <script src="script/Scene.js"></script>
+    <script src="script/puzzle1.js"></script>
+    <script src="script/main.js"></script>
+</body>
+</html>
