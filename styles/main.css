@@ -1,0 +1,14 @@
+
+@font-face {
+    font-family: font67;
+    src: url('../assets/font/font67.ttf');
+}
+
+* {
+    user-select: none;
+    font-family: font67;
+}
+
+.hidden {
+    display: none !important;
+}
